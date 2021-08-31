@@ -12,9 +12,14 @@ fastlane add_plugin flutter_build_increment
 
 ## About flutter_build_increment
 
-Increments pubspec.yaml build version number i.e. 1.0.0+1 to 1.0.0+2
+Increments pubspec.yaml (in ../pubsec.yaml location) build version number i.e. 1.0.0+1 to 1.0.0+2. Nothing more nothing less.
 
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
+Todo: 
+- return new build number and other version data to be used in the lane
+- fix test case
+- provide path to pubsec.yaml as parameter
+
+make sure to tag your build number.
 
 ## Example
 
