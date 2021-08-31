@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'm.seiderer@numberx.com'
 
   spec.summary       = 'Increments pubspec.yaml build version number i.e. 1.0.0+1 to 1.0.0+2'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-flutter_build_increment"
+  spec.homepage      = "https://github.com/Matthias-Seiderer/fastlane-plugin-flutter_build_increment"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
